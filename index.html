@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayaan Umar | Digital Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#080d1b;color:white;line-height:1.6}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #26304a}
+.logo{font-size:23px;font-weight:bold;color:#55c8ff}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{padding:110px 8%;min-height:470px;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(circle at 80% 40%,#163d67,#080d1b 60%)}
+.tag{color:#55c8ff;letter-spacing:3px;font-size:13px}
+h1{font-size:52px;line-height:1.2;margin:20px 0}
+h1 span{color:#55c8ff}
+.hero p{max-width:550px;color:#b9c4d8;font-size:17px}
+.btn{display:inline-block;margin-top:28px;background:#168bd2;color:white;padding:13px 25px;border-radius:7px;text-decoration:none;width:max-content}
+section{padding:70px 8%}
+h2{font-size:30px;margin-bottom:25px}
+.about p{color:#bac5d8;max-width:750px}
+.skills{display:flex;flex-wrap:wrap;gap:12px}
+.skills span{background:#17243d;border:1px solid #304464;padding:12px 20px;border-radius:7px}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#111c32;border:1px solid #293b5b;padding:25px;border-radius:12px}
+.card h3{color:#55c8ff;margin-bottom:10px}
+.card p{color:#b9c4d8;font-size:14px}
+.contact p{color:#bac5d8}
+footer{text-align:center;padding:25px;border-top:1px solid #26304a;color:#9baac2}
+@media(max-width:600px){
+header{flex-direction:column;gap:15px}
+nav a{margin:0 7px;font-size:12px}
+h1{font-size:38px}
+.hero{padding:75px 8%}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AYAAN UMAR.</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
 
+<div class="hero" id="home">
+<div class="tag">WELCOME TO MY DIGITAL WORLD</div>
+<h1>Hi, I'm <span>Ayaan Umar</span></h1>
+<p>I create modern websites, digital experiences and smart software solutions. Welcome to my portfolio.</p>
+<a class="btn" href="#projects">Explore My Work →</a>
+</div>
+
+<section class="about" id="about">
+<h2>About Me</h2>
+<p>I am a passionate digital creator interested in website development, software solutions and modern technology. I love learning new skills and building useful digital projects.</p>
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+<div class="skills">
+<span>HTML</span><span>CSS</span><span>JavaScript</span>
+<span>Python</span><span>GitHub</span><span>Excel</span>
+<span>AI Tools</span><span>Web Design</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>My Projects</h2>
+<div class="projects">
+<div class="card"><h3>Portfolio Website</h3><p>My personal digital portfolio and introduction.</p></div>
+<div class="card"><h3>Business Website</h3><p>Modern website concept for business owners.</p></div>
+<div class="card"><h3>Software Projects</h3><p>Useful digital tools and software ideas.</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Let's Work Together</h2>
+<p>Have a project in mind? Let's connect and create something amazing.</p>
+<a class="btn" href="Khanayan97326gmail.com">Contact Me</a>
+</section>
+
+<footer>© 2026 Ayaan Umar. All Rights Reserved.</footer>
+</body>
+</html>
